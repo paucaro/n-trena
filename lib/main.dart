@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:n_trena/category/category.dart';
+import 'package:n_trena/home/home.dart';
 import 'package:n_trena/theme.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: theme,
       debugShowCheckedModeBanner: false,
-      home: CategoryPage(),
+      home: HomePage(),
     );
   }
 }
